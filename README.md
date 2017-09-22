@@ -51,7 +51,10 @@ standalone application to dump a parsed `.nv` file, or as a class
 Start PinMAME and write down all of the high scores, and then exit. 
 Open the game's `.nv` file in a hex editor and search for the initials. 
 It should be possible to find each set of initials, with the
-corresponding score nearby.
+corresponding score nearby. You can search for a score value by searching
+Hex Bytes. For instance, if your score was 6,000,000, 
+search for 06 00 00 00 or 60 00 00. More often than not you will find
+the other scores near this search.
 
 For adjustments, make a list of each setting, its default value, the
 range of accepted values, and whether certain values have special
