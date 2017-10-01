@@ -6,13 +6,12 @@
 	"_roms": ["tomy_400"],
 	"_fileformat": 0.1,
 	"_version": 0.1,
-
-	"last_played": {"start": "0x1800", "encoding": "wpc_rtc", "length": 7},
+	
     "last_game": [
                 {"start": "0x05B2", "encoding": "bcd", "length": 5},
-                {"start": "0x15BE", "encoding": "bcd", "length": 5},
-                {"start": "0x15C3", "encoding": "bcd", "length": 5},
-                {"start": "0x15C8", "encoding": "bcd", "length": 5}
+                {"start": "0x05BE", "encoding": "bcd", "length": 5},
+                {"start": "0x05C3", "encoding": "bcd", "length": 5},
+                {"start": "0x05C8", "encoding": "bcd", "length": 5}
         ],
 	"high_scores": [
 		{	"label": "Grand Champion", "short_label": "GC",
